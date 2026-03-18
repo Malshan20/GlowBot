@@ -9,7 +9,7 @@
     "deploy-commands": "node src/deployCommands.js"
   },
   "keywords": ["discord", "bot", "ai", "groq", "quillglow"],
-  "author": "QuillGlow Team",
+  "author": "Malshan Dissanayaka",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.16.3",
