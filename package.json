@@ -1,0 +1,28 @@
+{
+  "name": "quillglow-discord-bot",
+  "version": "1.0.0",
+  "description": "QuillGlow AI Discord Bot - Student Assistant, Stress Coach & Emotional Support",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "deploy-commands": "node src/deployCommands.js"
+  },
+  "keywords": ["discord", "bot", "ai", "groq", "quillglow"],
+  "author": "QuillGlow Team",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "groq-sdk": "^0.8.0",
+    "dotenv": "^16.4.5",
+    "winston": "^3.13.0",
+    "node-cache": "^5.1.2",
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
